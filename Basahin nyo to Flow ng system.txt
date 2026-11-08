@@ -1,0 +1,93 @@
+Kanban Collectibles: System Content and Access Guide
+
+Login Screen
+
+Content: The entry point of the application. It has two fields, Email or Contact Number and Password, a Login button, and a link to the Sign up screen. It always shows the default light theme and English, because no user is signed in yet.
+Access: It opens automatically when the application launches and again after the user logs out.
+
+Sign Up Screen
+
+Content: A form with Username, Email or Contact Number, Password and Confirm Password, and a Get Started button. The system checks that every field is filled, that the contact is a valid email or Philippine mobile number, and that both passwords match. A successful sign-up signs the user in automatically.
+Access: Tap “Sign up here” at the bottom of the Login screen. The “Login” link on this screen returns to the Login screen.
+
+Voucher Pop-up
+
+Content: A pop-up listing the vouchers the user has not claimed and that have not expired. Each voucher shows its discount, title and minimum spend, with a Claim button. The pop-up can be closed with the X or with Maybe later, and nothing is claimed in that case.
+Access: It appears once, right after a successful login or sign-up, and only when claimable vouchers exist.
+
+Main Screen and Navigation Bar
+
+Content: The container for the five main areas of the application: Home, Cart, Notifications, Profile and Settings. The Cart and Notifications icons show badges with the number of cart items and unread notifications. On wide screens the bar becomes a side rail.
+Access: It opens after login or sign-up. The user switches areas by tapping the navigation bar.
+
+Home
+
+Content: A grid of all products from all users. It has a keyword search bar, a sort menu (name, price low to high, price high to low), a pre-order filter and a category menu with product counts. Each product card shows the photo, name, price, old price, and a pre-order tag when applicable. Products with no stock display an OUT OF STOCK overlay.
+Access: The first tab of the navigation bar, and the default area after login.
+
+Product Details
+
+Content: The full product page with the main photo, extra photos, name, price, old price, rating, stock count, quantity selector, description, product details and a “You may also like” row that scrolls horizontally. The stock count updates live. The quantity cannot exceed the available stock, and the buttons are disabled when the product is sold out. The bottom bar has Add to Cart and Buy Now (Pre-Order Now for pre-order items).
+Access: Tap any product card on Home, or any card in the “You may also like” row.
+
+Cart
+
+Content: The list of items the user added, with photo, name, price, quantity controls and a remove button, plus the total and a Checkout button.
+Access: The second tab of the navigation bar. Items arrive here through Add to Cart on the Product Details page.
+
+Checkout
+
+Content: The order summary with adjustable quantities, the payment method choices (Cash on Delivery, Credit or Debit Card, Online Banking), a voucher selector, and a price breakdown showing the subtotal, voucher discount, payment bonus, shipping fee, shipping discount and total. The Place Order button saves the order.
+Access: Tap Checkout in the Cart, or tap Buy Now on the Product Details page, which skips the Cart.
+
+My Orders
+
+Content: The user’s orders in tabs for All, Pre-order, Processing, Shipping, Received and Cancelled. Each order card shows the order number, status, date, items, quantities and total. Orders that are Processing, Pre-order or Shipping have a Cancel Order button.
+Access: From the Profile area, using My Orders or View all, or by tapping an order notification, which opens the matching tab.
+
+Notifications
+
+Content: A list of messages about order status changes (placed, processing, shipped, received, cancelled) and sold-out alerts for the user’s own products. Unread items are highlighted, and there is a Mark all as read button.
+Access: The third tab of the navigation bar.
+
+Profile
+
+Content: The user’s account hub. It shows the user’s photo and name with shortcuts to My Orders by status, Edit Profile, Vouchers, Customer Support, Messages, My Store and Log out. Customer Support and Messages currently show a “coming soon” message.
+Access: The fourth tab of the navigation bar.
+
+Edit Profile
+
+Content: Forms to change the profile photo, username, full name, contact, and password. Changing the username or password requires the current password.
+Access: Profile, then Edit Profile.
+
+Vouchers Page
+
+Content: Two tabs. Available lists vouchers the user can claim, and My Vouchers lists claimed ones with their status: Claimed, Used or Expired. Each voucher shows its discount, minimum spend and validity date.
+Access: Profile, then Vouchers.
+
+My Store
+
+Content: The user’s own product listings, with a search bar, a stock count per product, a Sold Out tag when stock is zero, and edit and delete buttons for each listing. The Add product button opens the product form.
+Access: Profile, then My Store.
+
+Product Form
+
+Content: The form for creating or editing a product: main photo, up to two extra photos, name, price, optional old price, category, a pre-order switch, then either a stock quantity or a pre-order period, plus description and details. The photos are chosen from the user’s own device.
+Access: Tap Add product in My Store to create a listing, or tap a listing or its edit button to change it.
+
+Settings
+
+Content: The application options: language (English or Filipino), theme (light, dark or system), text-to-speech, the delivery address, and the Help Center. The choices are saved under the user’s username, so each account keeps its own settings.
+Access: The fifth tab of the navigation bar.
+
+Help Center
+
+Content: A list of frequently asked questions that expand to show the answers, covering ordering, pre-orders, cancelling, order status, selling and account changes.
+Access: Through the Support option in Settings.
+
+Logout
+
+Content: A confirmation dialog. After confirming, the session ends and the in-memory settings return to the defaults, while the user’s saved choices stay stored for the next login.
+Access: Profile, then Log out. The system then returns to the Login screen.
+
+Navigation summary: Login leads to Sign up and, after authentication, to the Main Screen. From the Main Screen, Home leads to Product Details, then to Cart or directly to Checkout. Profile leads to My Orders, Edit Profile, Vouchers and My Store, and My Store leads to the Product Form. Settings leads to the Help Center and the other options. Logout returns to Login.

@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "integration-system-df09e",
+          "appId": "1:494581914573:android:3de6f4d02a11ec4eb00284",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "integration-system-df09e",
+          "configurations": {
+            "android": "1:494581914573:android:3de6f4d02a11ec4eb00284",
+            "ios": "1:494581914573:ios:0602cda025c5b4ccb00284",
+            "web": "1:494581914573:web:2733d33db44e184bb00284"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+  {
+    "source": "/(index.html|flutter_service_worker.js|flutter_bootstrap.js|main.dart.js)",
+    "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+  }
+]
+  }
+}
+
+

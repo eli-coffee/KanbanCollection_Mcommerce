@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "494581914573",
+    "firebase_url": "https://integration-system-df09e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "integration-system-df09e",
+    "storage_bucket": "integration-system-df09e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494581914573:android:3de6f4d02a11ec4eb00284",
+        "android_client_info": {
+          "package_name": "com.example.finals_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdPqslWlXNPFtAMwJbkn2sJkkUlGn-3d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494581914573:android:dfcba0a6fe58afefb00284",
+        "android_client_info": {
+          "package_name": "com.example.integration_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdPqslWlXNPFtAMwJbkn2sJkkUlGn-3d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
